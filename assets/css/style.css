@@ -8,9 +8,9 @@ body {
 .container {
   width: 100vw;
   height: 65vh;
+  gap: 2rem;
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 .header {
   display: flex;
@@ -27,6 +27,26 @@ body {
 .header-left {
   display: flex;
   align-items: center;
+}
+.header-nav {
+  width: 100vh;
+}
+.header-nav nav ul {
+  display: flex;
+  width: 100vw;
+  column-gap: 2rem;
+  border-bottom: 1px solid #ddd9d9;
+  align-items: end;
+}
+.header-nav nav ul li {
+  text-decoration: none;
+  list-style: none;
+  padding-bottom: 10px;
+}
+.header-nav nav ul li:hover {
+  border-bottom: 3px solid #4286f4;
+  padding-bottom: 7px;
+  color: #4286f4;
 }
 .google-logo {
   padding-right: 2rem;
